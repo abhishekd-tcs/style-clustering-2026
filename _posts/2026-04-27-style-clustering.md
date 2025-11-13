@@ -1,39 +1,32 @@
 ---
 layout: distill
-title: Sample Blog Post
-description: Your blog post's abstract.
-  Please add your abstract or summary here and not in the main body of your text.
-  Do not include math/latex or hyperlinks.
+title: Style-based Clustering of Visual Artworks and the Play of Neural Style-Representations
+description: We introduce the concept and present a systematic exploration of `style-based clustering for visual artworks', addressing a significant gap in computational art analysis. Our work introduces a comprehensive framework for extracting and evaluating neural style representations derived from multiple-sources: style classification networks, style transfer models, and vision-language models. Through rigorous quantitative evaluation on real-world artwork collections and synthetically styled datasets, we demonstrate the (relative) efficacy of these representations for unsupervised style clustering. Our analysis reveals key insights about feature representations and architectures for style-based clustering and has practical implications in digital curation, computational art history, and art retrieval and generation.
 date: 2026-04-27
 future: true
 htmlwidgets: true
 hidden: true
 
-# Mermaid diagrams
-mermaid:
-  enabled: true
-  zoomable: true
-
-# Anonymize when submitting
-# authors:
-#   - name: Anonymous
-
+Anonymize when submitting
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
-    affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+   - name: Anonymous
+
+# authors:
+#  - name: Albert Einstein
+#    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+#    affiliations:
+#      name: IAS, Princeton
+#  - name: Boris Podolsky
+#    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+#    affiliations:
+#      name: IAS, Princeton
+#  - name: Nathan Rosen
+#    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+#    affiliations:
+#      name: IAS, Princeton
 
 # must be the exact same name as your blogpost
-bibliography: 2026-04-27-distill-example.bib
+bibliography: 2026-04-27-style-clustering.bib
 
 # Add a table of contents to your post.
 #   - make sure that TOC names match the actual section names
@@ -52,44 +45,7 @@ toc:
   - name: Layouts
   - name: Other Typography?
 
-# Below is an example of injecting additional post-specific styles.
-# This is used in the 'Layouts' section of this post.
-# If you use this post as a template, delete this _styles block.
-_styles: >
-  .fake-img {
-    background: #bbb;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 12px;
-  }
-  .fake-img p {
-    font-family: monospace;
-    color: white;
-    text-align: left;
-    margin: 12px 0;
-    text-align: center;
-    font-size: 16px;
-  }
----
 
-Note: please use the table of contents as defined in the front matter rather than the traditional markdown styling.
-
-## Equations
-
-This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
-
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
-Here is an example:
-
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
-
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html)
-that brought a significant improvement to the loading and rendering speed, which is now
-[on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
 
 ## Images and Figures
 
